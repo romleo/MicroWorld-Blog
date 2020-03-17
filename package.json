@@ -1,0 +1,30 @@
+{
+  "name": "microworld-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romleo/MicroWorld-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romleo/MicroWorld-Blog/issues"
+  },
+  "homepage": "https://github.com/romleo/MicroWorld-Blog#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.3.0",
+    "prismic-javascript": "^2.4.0",
+    "prismic-reactjs": "^1.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
